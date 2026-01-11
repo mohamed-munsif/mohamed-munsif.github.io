@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { Projects } from '@/components/projects';
 import { About } from '@/components/about';
 import { Education } from '@/components/education';
+import { Experience } from '@/components/experience';
 import { SkeletonDemo, SkeletonCard } from '@/components/ui/skeleton';
 
 export default function Home() {
@@ -39,6 +40,9 @@ export default function Home() {
 
         {/* Education Section */}
         <Education />
+
+        {/* Experience Section */}
+        <Experience />
 
         {/* Projects Section */}
         <Projects />

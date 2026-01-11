@@ -38,7 +38,7 @@ const projects: Project[] = [
 export function Projects() {
   return (
     <section id="projects" className="py-12 scroll-mt-32">
-      <h3 className="text-3xl font-bold mb-8 text-center">Projects</h3>
+      <h3 className="text-3xl font-bold mb-4 text-center">Projects</h3>
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((project, index) => (
           <Card key={index} className="group overflow-hidden hover:shadow-lg transition-all duration-300">

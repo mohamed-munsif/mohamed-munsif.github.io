@@ -5,7 +5,7 @@ export function Education() {
   return (
     <section className="mb-16 scroll-mt-32" id="education">
       <div className="mb-2">
-        <h2 className="text-3xl font-bold">Education</h2>
+        <h2 className="text-3xl font-bold text-center">Education</h2>
       </div>
 
       <div className="p-6">
