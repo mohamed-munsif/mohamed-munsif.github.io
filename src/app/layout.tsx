@@ -13,28 +13,24 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Mohamed Munsif - Portfolio",
-  description: "Undergraduate Electrical and Electronics Engineering student at South Eastern University of Sri Lanka. On a mission to master AI/ML, one day at a time. Track my learning journey and progress.",
-  keywords: ["Mohamed Munsif", "Electrical Engineering", "Electronics Engineering", "AI", "Machine Learning", "Portfolio", "Study Tracker", "Learning Streak", "South Eastern University", "Sri Lanka"],
+  description: "Portfolio of Mohamed Munsif, undergraduate Electrical and Electronics Engineering student at South Eastern University of Sri Lanka.",
+  keywords: ["Mohamed Munsif", "Electrical Engineering", "Electronics Engineering", "AI", "Machine Learning", "Portfolio", "South Eastern University", "Sri Lanka"],
   authors: [{ name: "Mohamed Munsif" }],
   icons: {
-    icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-    ],
-    apple: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-    ],
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
     shortcut: '/favicon.svg',
   },
   openGraph: {
     title: "Mohamed Munsif - Portfolio",
-    description: "Undergraduate Electrical and Electronics Engineering student at South Eastern University of Sri Lanka. On a mission to master AI/ML, one day at a time.",
+    description: "Portfolio of Mohamed Munsif, undergraduate Electrical and Electronics Engineering student at South Eastern University of Sri Lanka.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "Mohamed Munsif - Portfolio",
-    description: "Undergraduate Electrical and Electronics Engineering student at South Eastern University of Sri Lanka. On a mission to master AI/ML, one day at a time.",
+    description: "Portfolio of Mohamed Munsif, undergraduate Electrical and Electronics Engineering student at South Eastern University of Sri Lanka.",
   },
   robots: {
     index: true,
@@ -55,11 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/favicon.svg" />
         <link rel="preload" href="/profile.png" as="image" />
-        <link rel="prefetch" href="/streak" />
-        <link rel="prefetch" href="/blogs" />
       </head>
       <body className={inter.className}>
         <ThemeProvider>

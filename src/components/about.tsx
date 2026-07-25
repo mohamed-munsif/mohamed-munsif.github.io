@@ -14,7 +14,7 @@ export function About() {
           <Avatar className="w-30 h-30">
             <AvatarImage 
               src="/profile.png" 
-              alt="Mohamed Munsif Profile"
+              alt="Munsif Mashoor Profile"
             />
             <AvatarFallback className="bg-primary/10 text-2xl">
               <User className="w-12 h-12 text-primary" />
@@ -23,19 +23,14 @@ export function About() {
         </div>
         <div>
           <h1 className="text-4xl font-bold mb-4">
-            Mohamed Munsif
+            Munsif Mashoor
           </h1>
-          <h2 className="text-2xl text-muted-foreground">🚀</h2>
         </div>
       </div>
       
       {/* Bio paragraph below photo */}
       <p className="text-lg mb-2 text-justify">
-        On a mission to master AI/ML, one day at a time. Check out my{' '}
-        <a href="/streak" className="text-primary underline font-medium hover:no-underline">
-          learning streak
-        </a>{' '}
-        to see how I&apos;m doing! 📊
+        On a mission to master AI/ML, one day at a time.
       </p>
 
       {/* Social Links */}
