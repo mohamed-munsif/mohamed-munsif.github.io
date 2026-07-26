@@ -232,9 +232,7 @@ export function Navbar() {
             WebkitBackdropFilter: 'blur(16px) saturate(170%)',
           }}
         >
-          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.28),transparent_28%),radial-gradient(circle_at_80%_25%,rgba(139,107,255,0.22),transparent_24%),radial-gradient(circle_at_50%_85%,rgba(52,224,196,0.12),transparent_28%),linear-gradient(180deg,rgba(255,255,255,0.12),rgba(255,255,255,0.02))] opacity-100" />
-          <div className="pointer-events-none absolute -left-8 top-1/2 h-28 w-28 -translate-y-1/2 rounded-full bg-violet-400/18 blur-3xl mix-blend-screen" />
-          <div className="pointer-events-none absolute -right-6 top-1/2 h-24 w-24 -translate-y-1/2 rounded-full bg-cyan-300/12 blur-3xl mix-blend-screen" />
+          <div className="pointer-events-none absolute inset-0 opacity-100" />
 
           <TooltipProvider>
             <div className="relative flex items-center justify-center gap-3 sm:gap-4">

@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -44,14 +43,11 @@ export function Projects() {
           <Card key={index} className="group overflow-hidden hover:shadow-lg transition-all duration-300">
             {/* Project image */}
             <div className="relative h-52 w-full overflow-hidden">
-              <Image 
+              <img 
                 src={project.image}
                 alt={project.title}
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                 loading={index < 2 ? "eager" : "lazy"}
-                quality={85}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>

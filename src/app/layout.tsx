@@ -50,9 +50,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="preload" href="/profile.png" as="image" />
-      </head>
       <body className={inter.className}>
         <ThemeProvider>
           <Navbar />
