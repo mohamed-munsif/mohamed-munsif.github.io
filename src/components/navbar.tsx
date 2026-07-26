@@ -268,16 +268,9 @@ export function Navbar() {
                   ))}
                   <div className="mx-1 h-5 w-px bg-white/15" />
 
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      <div className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/8 text-foreground/90 shadow-[inset_0_1px_0_rgba(255,255,255,0.35)] backdrop-blur-md transition-transform duration-300 hover:scale-105 hover:bg-white/12 sm:h-10 sm:w-10">
-                        <ThemeToggle />
-                      </div>
-                    </TooltipTrigger>
-                    <TooltipContent>
-                      <p>Toggle Theme</p>
-                    </TooltipContent>
-                  </Tooltip>
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/8 text-foreground/90 shadow-[inset_0_1px_0_rgba(255,255,255,0.35)] backdrop-blur-md transition-transform duration-300 hover:scale-105 hover:bg-white/12 sm:h-10 sm:w-10">
+                    <ThemeToggle />
+                  </div>
                 </div>
               </div>
             </div>
